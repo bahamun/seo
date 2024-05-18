@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Estilos para el catálogo de products */
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product p {
+  font-size: 14px;
+}

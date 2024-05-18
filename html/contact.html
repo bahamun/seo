@@ -1,0 +1,34 @@
+<!-- Página de Contáctenos -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- ... otras etiquetas meta y enlaces ... -->
+  <link rel="stylesheet" href="../css/contact-styles.css">
+</head>
+
+<body>
+  <section id="contact">
+    <h2>Contáctenos</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Nombre" id="contact-name">
+      <input type="email" placeholder="Correo electrónico" id="contact-email">
+      <textarea placeholder="Mensaje" id="contact-message"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="contact-message"></p>
+  </section>
+
+  <script>
+    const contactForm = document.querySelector("#contact-form");
+    const contactMessage = document.querySelector("#contact-message");
+
+    contactForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      // Procesar el formulario (simulación)
+      contactMessage.textContent = "¡Gracias por contactarnos! Responderemos pronto.";
+    });
+  </script>
+</body>
+
+</html>

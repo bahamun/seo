@@ -1,0 +1,12 @@
+/* styles.css */
+
+/* Estilos para la lista de customers */
+#customers ul {
+  list-style: none;
+  padding: 0;
+}
+
+#customers li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
